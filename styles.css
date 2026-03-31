@@ -80,6 +80,45 @@
     U+FFFD;
 }
 
+@font-face {
+  font-family: "Fira Sans Extra Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/FiraSansExtraCondensed-SemiBold-Cyrillic.woff2")
+    format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: "Fira Sans Extra Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/FiraSansExtraCondensed-SemiBold-Latin.woff2")
+    format("woff2");
+  unicode-range:
+    U+0000-00FF,
+    U+0131,
+    U+0152-0153,
+    U+02BB-02BC,
+    U+02C6,
+    U+02DA,
+    U+02DC,
+    U+0304,
+    U+0308,
+    U+0329,
+    U+2000-206F,
+    U+20AC,
+    U+2122,
+    U+2191,
+    U+2193,
+    U+2212,
+    U+2215,
+    U+FEFF,
+    U+FFFD;
+}
+
 :root {
   --color-white: #ffffff;
   --color-black: #000000;
@@ -90,8 +129,9 @@
   --color-gray-200: #d9d9d9;
   --color-gray-400: #9a9a9a;
   --color-gray-700: #4f4f4f;
-  --font-display: "Geo", sans-serif;
+  --font-first: "Geo", sans-serif;
   --font-mono: "Sometype Mono", monospace;
+  --main-frame-border: 2px solid var(--color-black);
 }
 
 * {
@@ -112,7 +152,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-display);
+  font-family: var(--font-first);
   font-weight: 400;
 }
 
@@ -132,7 +172,6 @@ samp {
 
 .sheet {
   width: 400px;
-  height: 800px;
   padding: 24px;
   background: var(--color-white);
   border: 1px solid var(--color-gray-200);
@@ -141,12 +180,8 @@ samp {
 
 .inner-frame {
   width: 100%;
-  height: 100%;
-  border: 2px solid var(--color-black);
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding: 16px;
+  border: var(--main-frame-border);
+  padding: 16px 12px;
   background: transparent;
 }
 
@@ -156,34 +191,19 @@ samp {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-display);
-  font-size: 40px;
+  font-family: var(--font-first);
+  font-size: 52px;
   line-height: 1;
-  letter-spacing: 0.06em;
-  white-space: nowrap;
-  overflow: hidden;
   text-align: center;
 }
 
-.frame-section {
+.frame-title-word {
   width: 100%;
-  height: 40px;
-  border: 2px solid var(--color-black);
-  background: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@media (max-width: 640px) {
-  .page {
-    padding: 12px;
-  }
-
-  .sheet {
-    height: 800px;
-    padding: 16px;
-  }
-
-  .inner-frame {
-    gap: 12px;
-    padding: 12px;
-  }
+.frame-title-letter {
+  display: block;
 }

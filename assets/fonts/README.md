@@ -1,6 +1,6 @@
 # Local Fonts
 
-Локальные шрифты для проекта.
+Local fonts for the project.
 
 ## Files
 
@@ -9,8 +9,8 @@
 
 ## Source
 
-- `Geo` взят из Google Fonts / Google Fonts static delivery.
+- `Geo` is taken from Google Fonts / Google Fonts static delivery.
 
 ## License
 
-- `Geo`: SIL Open Font License, см. `OFL-Geo.txt`
+- `Geo`: SIL Open Font License, see `OFL-Geo.txt`

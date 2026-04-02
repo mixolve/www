@@ -106,3 +106,85 @@ h6 {
 .frame-title-letter {
   display: block;
 }
+
+.link-grid {
+  width: 100%;
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.link-button {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-black);
+  background: var(--color-white);
+  color: var(--color-black);
+  font-family: var(--font-first);
+  font-size: 22px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link-button:hover,
+.link-button:focus-visible {
+  color: var(--color-accent-blue);
+  outline: none;
+}
+
+.link-button-hidden {
+  margin-top: 8px;
+}
+
+.hidden-dropdown {
+  margin-top: 8px;
+}
+
+.hidden-dropdown > summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.hidden-dropdown > summary::-webkit-details-marker {
+  display: none;
+}
+
+.hidden-panel {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hidden-link {
+  width: 100%;
+}
+
+.hidden-subdropdown {
+  width: 100%;
+}
+
+.hidden-subdropdown > summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.hidden-subdropdown > summary::-webkit-details-marker {
+  display: none;
+}
+
+.hidden-subpanel {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hidden-sublink {
+  width: 100%;
+}

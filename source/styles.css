@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./assets/fonts/Geo-Regular-Latin.woff2") format("woff2");
+  src: url("../resources/fonts/Geo-Regular-Latin.woff2") format("woff2");
   unicode-range:
     U+0000-00FF,
     U+0131,

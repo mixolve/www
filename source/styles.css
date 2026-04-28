@@ -70,9 +70,7 @@ h6 {
 }
 
 .sheet {
-  width: 100%;
-  min-width: 300px;
-  max-width: 600px;
+  width: 400px;
   padding: 24px;
   background: var(--color-white);
   border: 1px solid var(--color-gray-200);
@@ -119,7 +117,7 @@ h6 {
 
 .link-button {
   width: 100%;
-  min-height: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -189,27 +187,30 @@ h6 {
 
 .hidden-sublink {
   width: 100%;
-  min-height: 60px;
-  padding: 8px 10px;
+  height: 40px;
+  padding: 0 8px;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 4px;
-  font-size: 20px;
-  line-height: 1.1;
+  gap: 0;
+  font-size: 22px;
+  line-height: 0.85;
   text-align: center;
 }
 
 .hidden-sublink-name {
   width: 100%;
   display: block;
+  font-size: 22px;
+  line-height: 0.85;
 }
 
 .hidden-sublink-description {
   width: 100%;
   display: block;
-  color: var(--color-gray-700);
+  color: var(--color-gray-400);
   font-family: var(--font-first);
-  font-size: 13px;
-  line-height: 1.2;
+  font-size: 22px;
+  line-height: 0.85;
 }

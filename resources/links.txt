@@ -11,5 +11,5 @@ vx=https://github.com/mixolve/vx/tree/main/releases/
 ple=https://github.com/mixolve/ple/tree/main/releases/
 wbe=https://github.com/mixolve/wbe/tree/main/releases/
 luas-jsfxs=https://github.com/mixolve/luas-jsfxs
-video-01=https://www.youtube.com/watch?v=XIG4kJcT0zI
-video-02=https://www.youtube.com/watch?v=mcVGuTtk4sI
+video-01=
+video-02=

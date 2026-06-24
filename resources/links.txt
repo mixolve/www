@@ -1,0 +1,15 @@
+# External links used by the site.
+# Edit the URL after "=" to update the matching site button.
+
+drive=https://drive.google.com/drive/folders/1Wc72rHPUDhXbUAYgtxNf6LmNpq0SysWr
+cookies=https://ko-fi.com/mixolve
+github=https://github.com/mixolve
+twitch=https://www.twitch.tv/mixolve
+youtube=https://www.youtube.com/@mixolve
+insta=https://www.instagram.com/mixolve/
+vx=https://github.com/mixolve/vx/tree/main/releases/
+ple=https://github.com/mixolve/ple/tree/main/releases/
+wbe=https://github.com/mixolve/wbe/tree/main/releases/
+luas-jsfxs=https://github.com/mixolve/luas-jsfxs
+video-01=https://www.youtube.com/watch?v=XIG4kJcT0zI
+video-02=https://www.youtube.com/watch?v=mcVGuTtk4sI

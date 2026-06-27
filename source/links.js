@@ -44,6 +44,32 @@
     });
   };
 
+  const bindPressFeedback = () => {
+    document.querySelectorAll(".link-button").forEach((link) => {
+      const startPress = () => {
+        link.classList.add("is-pressing");
+      };
+
+      const endPress = () => {
+        window.setTimeout(() => {
+          link.classList.remove("is-pressing");
+          link.blur();
+        }, 120);
+      };
+
+      link.addEventListener("pointerdown", startPress, { passive: true });
+      link.addEventListener("pointerup", endPress, { passive: true });
+      link.addEventListener("pointercancel", endPress, { passive: true });
+      link.addEventListener("pointerleave", endPress, { passive: true });
+      link.addEventListener("touchstart", startPress, { passive: true });
+      link.addEventListener("touchend", endPress, { passive: true });
+      link.addEventListener("touchcancel", endPress, { passive: true });
+      link.addEventListener("click", endPress);
+    });
+  };
+
+  bindPressFeedback();
+
   fetch(linksPath, { cache: "no-store" })
     .then((response) => {
       if (!response.ok) {

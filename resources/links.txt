@@ -1,7 +1,7 @@
 # External links used by the site.
 # Edit the URL after "=" to update the matching site button.
 
-drive=https://drive.google.com/drive/folders/1Wc72rHPUDhXbUAYgtxNf6LmNpq0SysWr
+drive=
 cookies=https://ko-fi.com/mixolve
 github=https://github.com/mixolve
 twitch=https://www.twitch.tv/mixolve

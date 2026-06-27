@@ -87,6 +87,7 @@ h6 {
 .sheet {
   width: 100%;
   min-width: calc(300px - 12vw);
+  max-width: calc(1000px - 12vw);
   padding: 0;
   background: var(--color-white);
   border: 0;
@@ -210,11 +211,12 @@ h6 {
   width: 100%;
   height: 40px;
   min-width: 0;
+  margin-top: 8px;
   padding: 0 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--color-black);
+  border: 0;
   background: var(--color-white);
   color: var(--color-black);
   font-family: var(--font-first);

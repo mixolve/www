@@ -81,13 +81,12 @@ h6 {
   align-items: start;
   min-height: 100vh;
   min-height: 100svh;
-  padding: 0;
+  padding: 6vh 6vw;
 }
 
 .sheet {
-  width: 400px;
-  max-width: 400px;
-  min-width: 0;
+  width: 100%;
+  min-width: calc(300px - 12vw);
   padding: 0;
   background: var(--color-white);
   border: 0;
@@ -156,6 +155,7 @@ h6 {
   line-height: 1;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -221,6 +221,7 @@ h6 {
   font-size: 22px;
   line-height: 1;
   text-align: center;
+  text-transform: uppercase;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -234,10 +235,8 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 0;
   font-size: 22px;
-  line-height: 0.85;
+  line-height: 1;
   text-align: center;
 }
 
@@ -251,25 +250,8 @@ h6 {
   flex: 0 1 auto;
   display: block;
   font-size: 22px;
-  line-height: 0.85;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.hidden-sublink-description {
-  width: 100%;
-  inline-size: 100%;
-  max-width: 100%;
-  max-inline-size: 100%;
-  min-width: 0;
-  min-inline-size: 0;
-  flex: 0 1 auto;
-  display: block;
-  color: var(--color-gray-400);
-  font-family: var(--font-first);
-  font-size: 22px;
-  line-height: 0.85;
+  line-height: 1;
+  text-transform: uppercase;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -277,10 +259,6 @@ h6 {
 
 @media (max-width: 430px) {
   .page {
-    padding: 0;
-  }
-
-  .sheet {
-    padding: 0;
+    padding: 6vh 6vw;
   }
 }

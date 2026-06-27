@@ -88,7 +88,7 @@ h6 {
   width: 400px;
   max-width: 400px;
   min-width: 0;
-  padding: 24px;
+  padding: 0;
   background: var(--color-white);
   border: 0;
   box-shadow: none;
@@ -99,7 +99,7 @@ h6 {
   max-width: 100%;
   min-width: 0;
   border: 0;
-  padding: 16px 12px;
+  padding: 0;
   background: transparent;
 }
 
@@ -281,6 +281,6 @@ h6 {
   }
 
   .sheet {
-    padding: 24px;
+    padding: 0;
   }
 }

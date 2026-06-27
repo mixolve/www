@@ -81,9 +81,8 @@ h6 {
   place-items: center;
   min-height: 100vh;
   min-height: 100svh;
-  padding: max(24px, env(safe-area-inset-top))
-    max(24px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom))
-    max(24px, env(safe-area-inset-left));
+  padding: 0 max(24px, env(safe-area-inset-right))
+    max(24px, env(safe-area-inset-bottom)) 0;
 }
 
 .sheet {
@@ -279,9 +278,8 @@ h6 {
 
 @media (max-width: 430px) {
   .page {
-    padding: max(16px, env(safe-area-inset-top))
-      max(16px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom))
-      max(16px, env(safe-area-inset-left));
+    padding: 0 max(16px, env(safe-area-inset-right))
+      max(16px, env(safe-area-inset-bottom)) 0;
   }
 
   .sheet {

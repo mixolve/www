@@ -2,14 +2,10 @@
 # Edit the URL after "=" to update the matching site button.
 
 drive=
-cookies=https://ko-fi.com/mixolve
+plugins=https://ko-fi.com/mixolve
 github=https://github.com/mixolve
 twitch=https://www.twitch.tv/mixolve
 youtube=https://www.youtube.com/@mixolve
 insta=https://www.instagram.com/mixolve/
-ava=https://github.com/mixolve/ava/tree/main/releases/
-ple=https://github.com/mixolve/ple/tree/main/releases/
-wbe=https://github.com/mixolve/wbe/tree/main/releases/
-luas-jsfxs=https://github.com/mixolve/luas-jsfxs
 video-01=
 video-02=

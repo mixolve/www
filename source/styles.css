@@ -75,9 +75,9 @@ h6 {
 }
 
 .sheet {
-  width: 100%;
-  min-width: calc(300px - 12vw);
-  max-width: calc(1000px - 12vw);
+  width: 648px;
+  min-width: 648px;
+  max-width: 648px;
   padding: 0;
   background: transparent;
   border: 0;
@@ -102,9 +102,12 @@ h6 {
   align-items: center;
   justify-content: center;
   font-family: var(--font-title);
-  font-size: 123.5px;
+  font-size: 150px;
   line-height: 1;
   text-align: center;
+  cursor: default;
+  user-select: none;
+  caret-color: transparent;
 }
 
 .frame-title-word {
@@ -113,7 +116,8 @@ h6 {
   min-width: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 0px;
 }
 
 .frame-title-letter {
@@ -124,7 +128,7 @@ h6 {
   width: 100%;
   max-width: 100%;
   min-width: 0;
-  margin-top: 20.5px;
+  margin-top: 28.5px;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   row-gap: var(--content-row-gap);

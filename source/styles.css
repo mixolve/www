@@ -1,9 +1,25 @@
 @font-face {
-  font-family: "Sometype Mono";
+  font-family: "Iosevka Charon Mono";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../resources/fonts/SometypeMono-Regular.woff2") format("woff2");
+  src: url("../resources/fonts/IosevkaCharonMono-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Charon Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../resources/fonts/IosevkaCharonMono-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Charon Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../resources/fonts/IosevkaCharonMono-Bold.woff2") format("woff2");
 }
 
 @font-face {
@@ -24,8 +40,8 @@
   --color-gray-200: #d9d9d9;
   --color-gray-400: #9a9a9a;
   --color-gray-700: #4f4f4f;
-  --font-first: "Sometype Mono", monospace;
-  --font-title: "Science Fiction 101", "Sometype Mono", monospace;
+  --font-first: "Iosevka Charon Mono", monospace;
+  --font-title: "Science Fiction 101", "Iosevka Charon Mono", monospace;
   --content-row-gap: 6.5px;
 }
 
@@ -59,7 +75,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-first);
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .page {
@@ -148,6 +164,7 @@ h6 {
   background: #444444;
   color: var(--color-white);
   font-family: var(--font-first);
+  font-weight: 500;
   font-size: 22px;
   line-height: 1;
   text-align: center;
@@ -221,6 +238,7 @@ h6 {
   background: transparent;
   color: var(--color-white);
   font-family: var(--font-first);
+  font-weight: 500;
   font-size: 22px;
   line-height: 1;
   text-align: center;
